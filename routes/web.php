@@ -23,7 +23,7 @@ Route::get('/lienhe', function () {
 
 
 Route::get('/about', function () {
-    return "Họ tên: Nguyễn Văn Công - Lớp: D18CNPM2 - MSSV: 23810310128";
+    return "Họ tên: Đặng Thị Quỳnh - Lớp: D18CNPM2 - MSSV: 23810310156";
 });
 Route::get('/contact', function () {
     return view('contact');

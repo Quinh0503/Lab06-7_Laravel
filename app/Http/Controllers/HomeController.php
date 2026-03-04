@@ -9,9 +9,9 @@ class HomeController extends Controller
     public function index()
     {
         // 1. Tạo các biến dựa trên mảng thông tin
-        $name = 'Nguyen Van A';
+        $name = 'Dang Thi Quynh';
         $age = 20;
-        $school = 'Đại học CNTT';
+        $school = 'Đại học Dien luc';
 
         return view('contact', compact('name', 'age', 'school'));
     }
